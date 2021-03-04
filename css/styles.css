@@ -51,20 +51,27 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: .8em;
+  font-size: 0.8em;
   font-family: Cambria, Cochin, Georgia;
 }
 
 footer a {
   text-decoration: none;
-  color: #3f51b5;
+  color: black;
 }
 
-ul.posts { 
-  margin: 20px auto 40px; 
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+}
+
+ul.posts {
+  margin: 20px auto 40px;
   font-size: 1.5em;
 }
 
