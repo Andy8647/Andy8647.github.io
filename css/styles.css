@@ -9,6 +9,16 @@ body {
   z-index: 100;
   background-color: cornflowerblue;
   display: flex;
+  margin: 0px auto;
+  padding: 0px;
+  line-height: 3rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .navA {
