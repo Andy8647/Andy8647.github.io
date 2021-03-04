@@ -16,7 +16,7 @@ body {
   -webkit-box-direction: normal;
   flex-direction: row;
   -webkit-box-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   -webkit-box-align: center;
   align-items: center;
 }
@@ -28,6 +28,7 @@ body {
   font-size: 150%;
   text-decoration: none;
   color: black;
+  margin-inline: 20px;
 }
 
 ul {
