@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="andy8647lgc@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/Andy8647">github.com/Andy8647</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body>
+    <div class="navibar">
+      <ul>
+        <a href="/" class="naviHead"> Andy's Blog</a>
+        <li class="naviLi">
+          <a href="/about" class="naviLiA"> About </a>
+        </li>
+        <li class="naviLi">
+          <a href="/cv" class="naviLiA"> CV </a>
+        </li>
+        <li class="naviLi">
+          <a href="/blog" class="naviLiA"> Blog </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">{{ content }}</div>
+    <!-- /.container -->
+    <footer>
+      <ul>
+        <li><a href="andy8647lgc@gmail.com">email</a></li>
+        <li><a href="https://github.com/Andy8647">github.com/Andy8647</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
