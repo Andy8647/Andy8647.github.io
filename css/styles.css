@@ -101,7 +101,8 @@ ul.posts li {
 }
 
 .inTextLink:hover {
-  background-color: darkcyan;
+  background-color: wheat;
+  color: hotpink;
 }
 
 .pic {
@@ -119,6 +120,8 @@ ul.posts li {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
+  text-decoration: none;
+  color: #999;
 }
 
 hr {
