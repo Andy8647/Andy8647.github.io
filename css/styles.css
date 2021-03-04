@@ -79,7 +79,7 @@ footer ul {
 
 footer ul li {
   display: inline;
-  list-style-type:none;
+  list-style-type: none;
   font-size: 120%;
   margin-inline: 20px;
 }
@@ -103,22 +103,13 @@ a {
 }
 
 .dbtn {
-  float: right;
+  float: right !important;
   display: inline-block;
-  padding: 6px 12px;
   margin-bottom: 0;
+  margin-right: 0%;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.428571429;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
