@@ -18,7 +18,7 @@ body {
 }
 
 .naviLi {
-  float: right;
+  float: middle;
   display: list-item;
   margin: 20px;
 }
