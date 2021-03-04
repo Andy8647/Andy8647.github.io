@@ -64,10 +64,12 @@ footer a {
 
 footer ul {
   list-style: none;
+  text-align: center;
 }
 
 footer ul li {
   display: inline;
+  list-style-type:none;
 }
 
 ul.posts {
