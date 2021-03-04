@@ -94,9 +94,14 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: #999;
+}
+
+a:hover {
+  background-color: green;
 }
 
 .pic {
