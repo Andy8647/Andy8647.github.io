@@ -114,3 +114,11 @@ a {
   white-space: nowrap;
   vertical-align: middle;
 }
+
+hr {
+  margin-top: -30px;
+}
+
+.skillList{
+  list-style-type: disc;
+}
