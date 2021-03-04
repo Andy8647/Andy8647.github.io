@@ -121,4 +121,5 @@ hr {
 
 .skillList{
   list-style-type: disc;
+  line-height: 35px;
 }
