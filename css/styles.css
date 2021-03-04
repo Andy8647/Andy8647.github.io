@@ -95,13 +95,13 @@ ul.posts li {
   list-style: none;
 }
 
-a {
+.inTextLink {
   text-decoration: none;
   color: #999;
 }
 
-a:hover {
-  background-color: green;
+.inTextLink:hover {
+  background-color: darkcyan;
 }
 
 .pic {
