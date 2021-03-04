@@ -27,7 +27,7 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 150%;
   text-decoration: none;
-  color: black;
+  color: lightgrey;
   margin-inline: 20px;
 }
 
@@ -48,8 +48,10 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   font-size: 110%;
+  color: #333333;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 p {
   font-family: Cambria, Cochin, Georgia;
   font-size: 120%;
