@@ -66,3 +66,16 @@ footer a {
   text-decoration: none;
   color: #3f51b5;
 }
+
+ul.posts { 
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
