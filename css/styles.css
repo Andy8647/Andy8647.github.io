@@ -53,6 +53,7 @@ h1 {
 p {
   font-family: Cambria, Cochin, Georgia;
   font-size: 120%;
+  line-height: 35px;
 }
 
 footer {
@@ -92,4 +93,9 @@ ul.posts li {
 a {
   text-decoration: none;
   color: #999;
+}
+
+.pic {
+  width: 80%;
+  text-align: center;
 }
