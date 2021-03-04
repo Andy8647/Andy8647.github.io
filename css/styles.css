@@ -50,6 +50,10 @@ h1 {
   font-size: 110%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+p {
+  font-family: Cambria, Cochin, Georgia;
+  font-size: 120%;
+}
 
 footer {
   border-top: 1px solid #d5d5d5;
