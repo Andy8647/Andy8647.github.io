@@ -23,25 +23,6 @@ body {
   margin-right: 2%;
 }
 
-h1 {
-  font-family: Georgia;
-  font-size: 300%;
-}
-
-h2 {
-  font-family: Georgia;
-  font-size: 250%;
-}
-
-h3 {
-  font-family: Georgia;
-  font-size: 250%;
-}
-
-p {
-  font-family: Georgia;
-  line-height: 200%;
-}
 
 .narrowContainer {
   width: 60%;
@@ -49,7 +30,8 @@ p {
   margin-right: auto;
   color: #333333;
   font-family: Georgia;
-  font-size: 130%
+  font-size: 130%;
+  line-height: 200%
 }
 
 footer {
@@ -117,12 +99,9 @@ ul.posts li a {
 }
 
 hr {
-  margin-top: -30px;
+  margin-top: -1%;
 }
 
 .skillList {
   list-style-type: disc;
-  line-height: 35px;
-  font-family: Georgia;
-  font-size: 130%;
 }
