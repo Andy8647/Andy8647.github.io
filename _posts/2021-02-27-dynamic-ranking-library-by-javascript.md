@@ -22,7 +22,8 @@ such tool for building on some website.
 
 For more details, you can check [dynrank.js](https://dynrank.herokuapp.com/).
 
-# What can be improved
+## What can be improved
 - Method for load data: maybe read from csv or JSON.
 - Let developpers fully define the styles.
 - Fix the font compatibility between different browsers.
+
