@@ -9,7 +9,7 @@ body {
   z-index: 100;
   background-color: cornflowerblue;
   display: flex;
-  line-height: 3rem;
+  line-height: 250%;
   justify-content: center;
 }
 
