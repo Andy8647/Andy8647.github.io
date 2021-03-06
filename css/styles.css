@@ -100,9 +100,10 @@ ul.posts li {
 }
 
 .dbtn {
-  font-size: 90%;
+  font-size: 50%;
   text-decoration: none;
   color: #999;
+  font-family: monospace;
 }
 
 hr {
@@ -112,4 +113,5 @@ hr {
 .skillList {
   list-style-type: disc;
   line-height: 35px;
+  font-family: sans-serif;
 }
