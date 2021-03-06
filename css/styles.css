@@ -81,6 +81,7 @@ footer ul li {
 ul.posts {
   font-family: Georgia;
   font-size: 170%;
+  line-height: 140%;
 }
 
 ul.posts li {
