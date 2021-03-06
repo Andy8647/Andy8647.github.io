@@ -23,16 +23,20 @@ body {
   margin-right: 2%;
 }
 
-ul {
-  list-style: none;
-  display: block;
-  overflow: hidden;
-  margin: 0px;
-}
-
 h1 {
   font-family: Georgia;
   font-size: 300%;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 250%;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 130%;
+  line-height: 35px;
 }
 
 .narrowContainer {
@@ -40,12 +44,6 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-}
-
-p {
-  font-family: Georgia;
-  font-size: 130%;
-  line-height: 35px;
 }
 
 footer {
@@ -76,12 +74,17 @@ footer ul li {
 }
 
 ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em;
+  font-family: Georgia;
+  font-size: 170%;
 }
 
 ul.posts li {
   list-style: none;
+}
+
+ul.posts li a {
+  text-decoration: none;
+  color: #333333;
 }
 
 .inTextLink {
@@ -113,5 +116,5 @@ hr {
 .skillList {
   list-style-type: disc;
   line-height: 35px;
-  font-family: sans-serif;
+  font-family: Georgia;
 }

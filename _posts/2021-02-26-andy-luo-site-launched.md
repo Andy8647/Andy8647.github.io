@@ -4,4 +4,5 @@ title: "Andy Luo Launches Site"
 date: 2021-02-26
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+This is the first post, just for test. This blog is going to be about some of my projects and some of my learning notes.
+About this site: this is built with Github Page and Jekyll.
