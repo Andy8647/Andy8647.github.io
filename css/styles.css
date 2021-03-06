@@ -9,26 +9,17 @@ body {
   z-index: 100;
   background-color: cornflowerblue;
   display: flex;
-  margin: 0px auto;
-  padding: 0px;
   line-height: 3rem;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  -webkit-box-pack: justify;
   justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
 }
 
 .navA {
-  display: block;
-  text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 150%;
+  font-size: 130%;
   text-decoration: none;
   color: lightgrey;
-  margin-inline: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 ul {
@@ -37,9 +28,9 @@ ul {
   overflow: hidden;
   margin: 0px;
 }
+
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin-left: 20px;
   font-size: 300%;
 }
 
@@ -60,15 +51,16 @@ p {
 
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: 0.8em;
+  font-size: 80%;
   font-family: Cambria, Cochin, Georgia;
+  color: #333333;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: #333333;
 }
 
 footer ul {
@@ -76,14 +68,12 @@ footer ul {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 0.1%;
 }
 
 footer ul li {
-  display: inline;
-  list-style-type: none;
-  font-size: 120%;
-  margin-inline: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 ul.posts {
