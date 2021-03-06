@@ -100,15 +100,7 @@ ul.posts li {
 }
 
 .dbtn {
-  float: right !important;
-  display: inline-block;
-  margin-bottom: 0;
-  margin-right: 10%;
-  font-size: 14px;
-  font-weight: normal;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
+  font-size: 90%;
   text-decoration: none;
   color: #999;
 }
