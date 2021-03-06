@@ -50,11 +50,11 @@ p {
 
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: 80%;
-  font-family: Cambria, Cochin, Georgia;
+  font-size: 100%;
+  font-family: monospace;
   color: #333333;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 footer a {
