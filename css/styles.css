@@ -63,7 +63,7 @@ footer ul li {
 
 ul.posts {
   font-family: Georgia;
-  font-size: 170%;
+  font-size: 150%;
   line-height: 140%;
 }
 
@@ -104,4 +104,9 @@ hr {
 
 .skillList {
   list-style-type: disc;
+}
+
+#Ex1 {
+  font-size: 90%;
+  line-height: 100%;
 }
