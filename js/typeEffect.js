@@ -1,7 +1,7 @@
 const objectText = document.getElementsByClassName("typeEffect")
 
 for (let i = 0; i< objectText.length; i++){
-    objectText[i].textContent.replace(/\S/g, "<span>$&</span>")
+    objectText[i].innerHTML = objectText[i].textContent.replace(/\S/g, "<span>$&</span>")
 }
 
 
