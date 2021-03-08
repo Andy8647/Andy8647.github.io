@@ -1,8 +1,9 @@
 const objectText = document.getElementsByClassName("typeEffect")
 
-objectText.forEach((text, index) => {
-    text.textContent.replace(/\S/g, "<span>$&</span>")
-})
+for (let i = 0; i< objectText.length; i++){
+    objectText[i].textContent.replace(/\S/g, "<span>$&</span>")
+}
+
 
 let delay = 0
 document.querySelectorAll('span').forEach((span, index)=>{
