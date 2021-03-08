@@ -111,7 +111,7 @@ hr {
 }
 
 /* typing effect */
-.typeEffect {
+#typeEffect {
   font-family: monospace;
   margin: 0;
   padding: 0;
@@ -121,7 +121,7 @@ hr {
   position: relative;
 }
 
-.typeEffect span {
+#typeEffect span {
   display: inline-block;
   overflow: hidden;
   width: 0ch;
@@ -139,7 +139,7 @@ hr {
 }
 
 /* cursor and its animation animation */
-.typeEffect::after {
+#typeEffect::after {
   content: "";
   display: inline-block;
   position: absolute;

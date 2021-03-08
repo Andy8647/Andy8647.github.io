@@ -1,13 +1,12 @@
-const objectText = document.getElementsByClassName("typeEffect")
+const objectText = document.getElementById("typeEffect");
 
-for (let i = 0; i< objectText.length; i++){
-    objectText[i].innerHTML = objectText[i].textContent.replace(/\S/g, "<span>$&</span>")
-}
+objectText.innerHTML = objectText.textContent
+  .replace(/\S/g, "<span>$&</span>")
+  .replace(/\s/g, "<span>&nbsp;</span>");
 
+let delay = 0;
+document.querySelectorAll("span").forEach((span, index) => {
+  delay += 0.1;
 
-let delay = 0
-document.querySelectorAll('span').forEach((span, index)=>{
-    delay += 0.1
-
-    span.style.setProperty('--delay', `${delay}s`)
-})
+  span.style.setProperty("--delay", `${delay}s`);
+});
