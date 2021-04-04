@@ -98,11 +98,17 @@ ul.posts li a {
 }
 
 hr {
-  margin-top: -1%;
+  margin-top: -3%;
 }
 
 .skillList {
   list-style-type: disc;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.right {
+  float: right;
 }
 
 #Ex1 {
