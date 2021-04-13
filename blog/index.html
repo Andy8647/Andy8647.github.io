@@ -8,13 +8,13 @@ title: Andy's Blog
   <br />
   <div class="postList">
     {% for post in site.posts %}
-      <a href="{{ post.url }}" title="{{ post.title }}"
-        > <strong>{{ post.title }}</strong>
-        <br>
-        <span>{{ post.date | date_to_string }} </span>
-        <br>
-        <span> #{{ post.tags }} </span>
-      </a>
+    <a href="{{ post.url }}" title="{{ post.title }}">
+      <strong>{{ post.title }}</strong>
+      <br />
+      <span>{{ post.date | date_to_string }} </span>
+      <br />
+      <span> #{{ post.tags }} </span>
+    </a>
     {% endfor %}
-    </div>
+  </div>
 </div>
