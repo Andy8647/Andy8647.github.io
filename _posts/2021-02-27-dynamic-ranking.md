@@ -2,6 +2,7 @@
 layout: post
 title: "Dynamic Ranking Library by JavaScript"
 date: 2021-02-27
+tags: javascript
 ---
 
 # DynamicRanking.js

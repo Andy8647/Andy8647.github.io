@@ -2,6 +2,7 @@
 layout: post
 title: "Andy Luo Launches Site"
 date: 2021-02-26
+tags: [misc]
 ---
 
 This is the first post, just for test. This blog is going to be about some of my projects and some of my learning notes.

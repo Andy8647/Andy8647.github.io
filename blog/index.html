@@ -5,12 +5,16 @@ title: Andy's Blog
 
 <div class="texts">
   <h1>{{ page.title }}</h1>
-  <ul class="posts">
+  <br />
+  <div class="postList">
     {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date_to_string }}</span> »
-      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
+      <a href="{{ post.url }}" title="{{ post.title }}"
+        > <strong>{{ post.title }}</strong>
+        <br>
+        <span>{{ post.date | date_to_string }} </span>
+        <br>
+        <span> #{{ post.tags }} </span>
+      </a>
     {% endfor %}
-  </ul>
+    </div>
 </div>

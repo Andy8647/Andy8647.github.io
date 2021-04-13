@@ -11,7 +11,8 @@ body {
   display: flex;
   line-height: 250%;
   justify-content: center;
-  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px, rgb(0 0 0 / 15%) 0px 2px 10px 0px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px,
+    rgb(0 0 0 / 15%) 0px 2px 10px 0px;
 }
 
 .navA {
@@ -33,7 +34,8 @@ body {
   line-height: 200%;
   padding: 30px;
   background-color: #dce9eb;
-  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px, rgb(0 0 0 / 15%) 0px 2px 10px 0px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px,
+    rgb(0 0 0 / 15%) 0px 2px 10px 0px;
 }
 
 footer {
@@ -170,4 +172,38 @@ hr {
   to {
     opacity: 1;
   }
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5vh;
+}
+
+.postList a {
+  border-radius: 0.25rem;
+  padding: 2vh;
+  margin: 2% 10% 2%;
+  color: #333333;
+  background-color: gainsboro;
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px,
+    rgb(0 0 0 / 15%) 0px 2px 10px 0px;
+}
+
+.postList a:hover {
+  box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px,
+    rgb(0 0 0 / 15%) 0px 10px 10px 0px;
+  background-color: gainsboro;
+  color: #333333;
+}
+
+.postList a span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 80%;
+}
+
+.postList a strong {
+  font-family: Georgia;
+  color: #333333;
+  font-size: 120%;
 }
