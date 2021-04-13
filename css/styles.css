@@ -89,7 +89,6 @@ ul.posts li a {
   background-color: wheat;
   color: hotpink;
   border-radius: 0.25rem;
-  padding: 2px;
 }
 
 .pic {
@@ -198,7 +197,6 @@ hr {
     rgb(0 0 0 / 15%) 0px 10px 10px 0px;
   background-color: gainsboro;
   color: #333333;
-  padding: 0px;
 }
 
 .postList a span {
