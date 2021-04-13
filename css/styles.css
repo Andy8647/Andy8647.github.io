@@ -89,6 +89,7 @@ ul.posts li a {
   background-color: wheat;
   color: hotpink;
   border-radius: 0.25rem;
+  padding: 2px;
 }
 
 .pic {
