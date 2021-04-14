@@ -5,7 +5,7 @@ date: 2021-02-27
 tags: javascript
 ---
 
-# DynamicRanking.js
+## DynamicRanking.js
 
 This is a javascript library that allows developers to demonstrate the dynamic changing of rankings of some objects over time or other variables with a clear direction.
 
@@ -27,4 +27,6 @@ For more details, you can check [dynrank.js](https://dynrank.herokuapp.com/).
 - Method for load data: maybe read from csv or JSON.
 - Let developpers fully define the styles.
 - Fix the font compatibility between different browsers.
+- Provide more charts, e.g. pie chart
+- Animation
 

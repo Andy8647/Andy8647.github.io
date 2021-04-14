@@ -38,6 +38,17 @@ body {
     rgb(0 0 0 / 15%) 0px 2px 10px 0px;
 }
 
+.narrowContainer a {
+  text-decoration: none;
+  color: #999;
+}
+
+.narrowContainer a:hover {
+  background-color: wheat;
+  color: hotpink;
+  border-radius: 0.25rem;
+}
+
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 100%;
@@ -56,39 +67,9 @@ footer ul {
   list-style: none;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
   margin-top: 0.1%;
-}
-
-footer ul li {
-  margin-left: 1%;
-  margin-right: 1%;
-}
-
-ul.posts {
-  font-family: Georgia;
-  font-size: 150%;
-  line-height: 140%;
-}
-
-ul.posts li {
-  list-style: none;
-}
-
-ul.posts li a {
-  text-decoration: none;
-  color: #333333;
-}
-
-.narrowContainer a {
-  text-decoration: none;
-  color: #999;
-}
-
-.narrowContainer a:hover {
-  background-color: wheat;
-  color: hotpink;
-  border-radius: 0.25rem;
 }
 
 .pic {
