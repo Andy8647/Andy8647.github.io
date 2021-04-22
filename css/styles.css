@@ -1,6 +1,7 @@
 body {
   background-color: #ebf8f7;
   margin: 0%;
+  font-family: 'Quicksand';
 }
 
 .navibar {
@@ -10,18 +11,18 @@ body {
   background-color: rgb(119, 168, 170);
   display: flex;
   line-height: 250%;
-  justify-content: center;
+  justify-content: space-evenly;
   box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px,
     rgb(0 0 0 / 15%) 0px 2px 10px 0px;
 }
 
 .navA {
   font-family: Helvetica;
-  font-size: 130%;
+  font-size: 120%;
   text-decoration: none;
   color: lightgrey;
-  margin-left: 2%;
-  margin-right: 2%;
+  /* margin-left: 2%;
+  margin-right: 2%; */
 }
 
 .narrowContainer {
@@ -29,8 +30,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: #333333;
-  font-family: Georgia;
-  font-size: 110%;
+  font-size: 120%;
   line-height: 200%;
   padding: 30px;
   background-color: #dce9eb;
@@ -52,7 +52,6 @@ body {
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 100%;
-  font-family: monospace;
   color: #333333;
   margin-top: 5%;
   margin-bottom: 1%;
@@ -181,12 +180,10 @@ hr {
 }
 
 .postList a span {
-  font-family: "Courier New", Courier, monospace;
   font-size: 80%;
 }
 
 .postList a strong {
-  font-family: Georgia;
   color: #333333;
   font-size: 120%;
 }
